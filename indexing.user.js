@@ -8,6 +8,7 @@
 // @grant        none
 // @include      https://atom.aionindexing.eu/form/item*
 // @downloadURL https://raw.githubusercontent.com/lbehal/Indexing/master/indexing.user.js
+// @version 1.2
 // ==/UserScript==
 /* jshint -W097 */
 
