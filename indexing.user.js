@@ -20,7 +20,7 @@ $1("#Form_A100816 > tbody > tr > td.FieldB > span > a").each(function() {
     var href = $1(this).attr("href");
     debug(href);
     var czhref= href.replace("/SK/", "/CS/").replace("locale=sk","locale=cs");
-    debug(czhref);
+    debug("changed to "+ czhref);
     $1(this).attr("href", czhref);
      $1(this).text(czhref);
     
