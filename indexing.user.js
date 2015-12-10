@@ -1,15 +1,14 @@
 // ==UserScript==
 // @name         Indexing 
-// @namespace    null
+// @namespace    Indexing
 // @version      0.1
 // @description  Improves CZ indexing
 // @author       LB
-// @require        http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js 
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js 
 // @grant        none
 // @include      https://atom.aionindexing.eu/form/item*
 // ==/UserScript==
 /* jshint -W097 */
-'use strict';
 
 $1 = this.jQuery = jQuery.noConflict(true);
 var debug = function(x) {    
