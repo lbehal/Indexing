@@ -1,14 +1,13 @@
 // ==UserScript==
 // @name         Indexing 
 // @namespace    Indexing
-// @version      0.1
+// @version 1.3
 // @description  Improves CZ indexing
 // @author       LB
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js 
 // @grant        none
 // @include      https://atom.aionindexing.eu/form/item*
 // @downloadURL https://raw.githubusercontent.com/lbehal/Indexing/master/indexing.user.js
-// @version 1.3
 // ==/UserScript==
 /* jshint -W097 */
 
