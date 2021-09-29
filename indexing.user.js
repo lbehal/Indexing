@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Indexing 
 // @namespace    Indexing
-// @version 1.4
+// @version 1.5
 // @description  Improves CZ indexing
 // @author       LB
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js 
