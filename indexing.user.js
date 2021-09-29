@@ -30,7 +30,7 @@ if(window.location.href.indexOf("eur-document") != -1)
 	$1("div.SiteTitle").each(
 		function()
 		{
-			var zoomSelect = $(`<div><span>Zoom</span><select onchange="$('div.PageBox')[0].style.zoom = this.value;">
+			var zoomSelect = $(`<div><span>Zoom</span><select onchange="{$('div.PageBox')[0].style.zoom = this.value;$($('div.PageBox')[0]).css('line-height','150%');}">
      <option value="1" selected="selected">100%</option>
      <option value="1.5">150%</option>
      <option value="2">200%</option>
