@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Indexing 
 // @namespace    Indexing
-// @version 1.5
+// @version 1.6
 // @description  Improves CZ indexing
 // @author       LB
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js 
@@ -32,7 +32,9 @@ if(window.location.href.indexOf("eur-document") != -1)
 		{
 			var zoomSelect = $(`<div><span>Zoom</span><select onchange="{$('div.PageBox')[0].style.zoom = this.value;$($('div.PageBox')[0]).css('line-height','150%');}">
      <option value="1" selected="selected">100%</option>
+      <option value="1.25">125%</option>
      <option value="1.5">150%</option>
+      <option value="1.75">175%</option>
      <option value="2">200%</option>
 </select></div>`);
 				zoomSelect.insertBefore($(this));
