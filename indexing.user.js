@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Indexing 
 // @namespace    Indexing
-// @version 1.6
+// @version 1.7
 // @description  Improves CZ indexing
 // @author       LB
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js 
@@ -40,3 +40,6 @@ if(window.location.href.indexOf("eur-document") != -1)
 				zoomSelect.insertBefore($(this));
 			});
 }
+$("p.MsoFootnoteText[style*='margin-right:-']").each(function() {
+$1(this).attr('style', '');
+});
