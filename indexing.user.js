@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Indexing 
 // @namespace    Indexing
-// @version 1.9
+// @version 2.0
 // @description  Improves CZ indexing
 // @author       LB
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js
@@ -73,6 +73,8 @@ if(window.location.href.indexOf("eur-document") != -1)
 		{
 			var zoomSelect = $1(`<div style='margin: 5px;'><span>Zoom</span><label><input type='radio' name='editList' value='1' checked />100%</label>
 <label><input type='radio' name='editList' value='1.25' />125%</label>
+<label><input type='radio' name='editList' value='1.3' />130%</label>
+<label><input type='radio' name='editList' value='1.4' />140%</label>
 <label><input type='radio' name='editList' value='1.5' />150%</label>
 <label><input type='radio' name='editList' value='1.75' />175%</label>
 <label><input type='radio' name='editList' value='2' />200%</label>
